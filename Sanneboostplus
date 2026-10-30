@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SANNE BOOSTE PLUS : publicité digitale, création de contenus et accompagnement des créateurs et entreprises.">
+  <title>SANNE BOOSTE PLUS | Votre visibilité, notre mission.</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #101010;
+      color: #f5f0e5;
+      line-height: 1.6;
+    }
+    :root { --gold: #d8b45a; --muted: #bdb7aa; }
+    header {
+      display: flex; justify-content: space-between;
+      align-items: center; padding: 20px 7%;
+      border-bottom: 1px solid #42351c;
+    }
+    .logo { color: var(--gold); font-weight: 800; font-size: 20px; }
+    nav a {
+      color: #eee; text-decoration: none;
+      margin-left: 18px; font-size: 14px;
+    }
+    nav a:hover { color: var(--gold); }
+    .hero {
+      padding: 90px 7% 75px;
+      text-align: center;
+      background: radial-gradient(ellipse at top, #3b301b, #101010 65%);
+    }
+    .tag { color: var(--gold); letter-spacing: 3px; font-size: 12px; }
+    h1 {
+      color: var(--gold); font-size: clamp(35px, 7vw, 65px);
+      line-height: 1.15; margin: 22px 0;
+    }
+    .hero p { max-width: 650px; margin: auto; color: var(--muted); }
+    .btn {
+      display: inline-block; background: var(--gold);
+      color: #17130a; padding: 14px 25px;
+      border-radius: 6px; text-decoration: none;
+      font-weight: bold; margin-top: 28px;
+    }
+    section { padding: 65px 7%; }
+    .section-title {
+      text-align: center; color: var(--gold);
+      font-size: 30px; margin-bottom: 12px;
+    }
+    .intro { text-align: center; color: var(--muted); margin-bottom: 35px; }
+    .grid {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 18px; max-width: 900px; margin: auto;
+    }
+    .service {
+      background: #1c1a16; border: 1px solid #554522;
+      border-radius: 12px; padding: 25px;
+    }
+    .service h3 { color: var(--gold); margin-bottom: 8px; }
+    .service p { color: var(--muted); font-size: 14px; }
+    .about {
+      background: #191713; text-align: center;
+    }
+    .about p { max-width: 750px; margin: 15px auto; color: var(--muted); }
+    .steps { max-width: 750px; margin: auto; }
+    .step {
+      border-left: 3px solid var(--gold);
+      padding: 8px 20px; margin: 20px 0;
+    }
+    .step strong { color: var(--gold); }
+    .contact { text-align: center; }
+    footer {
+      text-align: center; padding: 25px;
+      border-top: 1px solid #42351c;
+      color: #aaa; font-size: 13px;
+    }
+    @media (max-width: 600px) {
+      header { flex-direction: column; gap: 12px; }
+      nav a { margin: 0 7px; font-size: 12px; }
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 65px 6%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">SANNE BOOSTE PLUS 👍</div>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#services">Services</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="tag">BIENVENUE CHEZ SANNE BOOSTE PLUS</div>
+      <h1>Votre visibilité,<br>notre mission.</h1>
+      <p>
+        Des solutions digitales pour les créateurs, entrepreneurs
+        et entreprises qui souhaitent développer leur présence en ligne.
+      </p>
+      <a class="btn" href="#services">Découvrir nos services</a>
+    </section>
+
+    <section id="services">
+      <h2 class="section-title">Nos services</h2>
+      <p class="intro">Des prestations adaptées à vos ambitions digitales.</p>
+      <div class="grid">
+        <article class="service">
+          <h3>TikTok</h3>
+          <p>Création de vidéos courtes, stratégie de contenu et accompagnement publicitaire.</p>
+        </article>
+        <article class="service">
+          <h3>Instagram</h3>
+          <p>Création de visuels, identité graphique et conseils pour développer votre compte.</p>
+        </article>
+        <article class="service">
+          <h3>Facebook</h3>
+          <p>Création de publications, accompagnement de pages et campagnes publicitaires.</p>
+        </article>
+        <article class="service">
+          <h3>YouTube</h3>
+          <p>Création de miniatures, optimisation de chaînes et promotion de vidéos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="apropos">
+      <h2 class="section-title">À propos de nous</h2>
+      <p>
+        SANNE BOOSTE PLUS est un projet de services digitaux destiné
+        aux créateurs, entrepreneurs et entreprises de Guinée et
+        d'Afrique francophone.
+      </p>
+      <p>
+        Notre mission est de rendre les outils de communication
+        numérique plus accessibles grâce à des prestations transparentes
+        et un accompagnement sérieux.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Comment ça fonctionne ?</h2>
+      <p class="intro">Trois étapes simples pour commencer.</p>
+      <div class="steps">
+        <div class="step"><strong>01 — Choisissez</strong><p>Identifiez le service adapté à votre besoin.</p></div>
+        <div class="step"><strong>02 — Présentez votre projet</strong><p>Décrivez votre objectif et votre budget.</p></div>
+        <div class="step"><strong>03 — Échangeons</strong><p>Nous étudions votre demande et vous proposons une prestation.</p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Parlons de votre projet</h2>
+      <p class="intro">Votre prochaine étape digitale commence ici.</p>
+      <p style="color:#bdb7aa">
+        Nos coordonnées de contact seront ajoutées après leur configuration.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>SANNE BOOSTE PLUS 👍</p>
+    <p>Votre visibilité, notre mission.</p>
+    <p>© 2026 — Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
